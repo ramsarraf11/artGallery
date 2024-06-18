@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f0f0f0;
+}
+
+header {
+    background-color: #444;
+    padding: 20px 0;
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    color: #ffebcd;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    background-color: #666;
+    color: #ffffff;
+}
+
+.nav-right {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cart-icon {
+    color: #ffebcd;
+    font-size: 1.5em;
+    text-decoration: none;
+    position: relative;
+}
+
+#cart-count {
+    background-color: #ff5e6c;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 0.8em;
+}
+
+.hero {
+    background: linear-gradient(to right, #ff5e6c, #ffc371);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.gallery-info {
+    padding: 10px 20px;
+}
+
+.gallery-info h3 {
+    color: black;
+}
+
+.shop-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shop-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.shop-info {
+    padding: 10px 20px;
+}
+
+.shop-info h3 {
+    color: black;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffc371;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff5e6c;
+}
+
+/* Social Media Icons */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-media a {
+    color: white;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ffc371;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.contact-form h3 {
+    color: #ffc371;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ff5e6c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e14b55;
+}
+
+.address {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.address h3 {
+    color: #ffc371;
+}
+
+#about {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.artist-image {
+    flex: 1;
+    text-align: center;
+}
+
+.artist-image img {
+    max-width: 100%;
+    border-radius: 50%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+.artist-details {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.artist-details h2 {
+    color: #ff5e6c;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.artist-details p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
